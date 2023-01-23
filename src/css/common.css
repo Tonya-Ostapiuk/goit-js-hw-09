@@ -48,6 +48,71 @@ img {
     background-color:  #bce073ee;
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.15);
 }
+.timer-input{
+  color: #109431;
+  background-color: #e3faa5;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.71;
+  letter-spacing: 0.06em;
+  padding: 2px 15px;
+  box-shadow: 2px 6px 6px rgba(31, 90, 7, 0.384);
+  border-radius: 3px;
+  border-color: transparent;
+  margin: 20px 7px;
+}
+.timer-button { 
+  background-color: #109431;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.71;
+  letter-spacing: 0.06em;
+  padding: 2px 15px;
+  box-shadow: 2px 6px 6px rgba(31, 90, 7, 0.384);
+  border-radius: 3px;
+  border-color: transparent;
+  margin: 20px 50px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timer-button:hover {
+    
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.05);
+}
 .container{
+  background-color: #f8fa7f;
+}
+.center{
   margin: 260px 560px;
+}
+
+
+.timer{
+  display: flex;
+  gap: 15px;
+  
+}
+.field{
+  display: flex;
+  flex-wrap: wrap;
+}
+.value{
+  color: #109431;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.36;
+  text-align: center;
+  
+  letter-spacing: 0.02em;
+}
+.label{
+  color: #109431;
+
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
