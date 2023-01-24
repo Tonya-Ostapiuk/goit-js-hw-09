@@ -71,7 +71,7 @@ startBtn.addEventListener('click', () => {
       minutes.textContent = addLeadingZero(timeObject.minutes);
       seconds.textContent = addLeadingZero(timeObject.seconds);
 
-      if (seconds.textContent <= 0) {
+    if (seconds.textContent <= 0) {
         Notiflix.Notify.success('The countdown is complete');
       document.body.style.background = 'Gold';
       clearInterval(timer);
