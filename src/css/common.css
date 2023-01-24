@@ -116,6 +116,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
 }
-input, label{
+.block{
   display:block;
 }
